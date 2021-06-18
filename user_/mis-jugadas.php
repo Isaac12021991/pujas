@@ -211,7 +211,6 @@ if (@!$_SESSION['usuario']) {
 																	<tr>
 																		<th scope="col">Id</th>
 																		<th scope="col">Carre</th>
-																		<th scope="col">Ejem</th>
 																		<th scope="col">Apuet</th>
 																		<th scope="col">Ganado</th>
 																	</tr>
@@ -251,7 +250,6 @@ if (@!$_SESSION['usuario']) {
 																			<tr>
 																			<td>'.htmlentities($id_tabla).'</td>
 																			<td>'.htmlentities($id_sala).'</td>
-																			<td>'.htmlentities($nombre_ejemplar).'</td>
 																			<td>$'.htmlentities($precio).'</td>
 																			<td>$'.htmlentities($ganado).'</td>
 																			</tr>
